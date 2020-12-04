@@ -1,0 +1,25 @@
+
+<form action="/timetable/{{appoint._id}}" id="editTable" method="PUT" name="{{appoint._id}}">
+
+    <div>
+        <label> date: <input name="time1" type="date" > </label>
+    </div>
+    <div>
+        <label> time: <input name="time2" type="time" > </label>
+    </div>
+    <div>
+        <label> name: <input name="name1" value="{{appoint.name}}"> </label>
+    </div>
+
+    <div>
+        <label> description: <input name="description1" value="{{appoint.description}}"> </label>
+    </div>
+    <div>
+        <label> numberOfCard: <input name="numberOfCard1" value="{{appoint.numberOfCard1}}"> </label>
+    </div>
+
+    <a>
+        <button type="submit">add edit</button>
+    </a>
+
+</form>

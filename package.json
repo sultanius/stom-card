@@ -1,0 +1,38 @@
+{
+  "name": "stom-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sultanius/stom-card.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sultanius/stom-card/issues"
+  },
+  "homepage": "https://github.com/sultanius/stom-card#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "dateformat": "^4.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "http-errors": "^1.8.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.10.18",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "session-file-store": "^1.5.0"
+  }
+}
